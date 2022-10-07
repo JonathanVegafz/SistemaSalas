@@ -1,0 +1,74 @@
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family:"Arial"; 
+    overflow-x:hidden; 
+    background-color: #FEDACD;}
+
+.Horario{
+    display: block; 
+	position: relative; 
+	width: 1103px; 
+	height: 1153px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.Cabesera{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.hora{
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(148.000006377697, 164.00000542402267, 216.00000232458115, 1);
+	width:63.38487243652344px;
+	height:31.45703887939453px;
+	margin-left: 50px;
+	top:122px; 
+
+}
+
+.dias{
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(247.00000047683716, 179.000004529953, 179.000004529953, 1);
+	width:192.6857147216797px;
+	height:31.45703887939453px;
+    margin-left: 10px;
+	top:123px;
+}
+
+.bloquesHorarios{
+    width: 100%;
+    height: 111.59188842773438px;
+    display: flex;
+    align-items: center;
+}
+
+.bloqueHora{
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(148.000006377697, 164.00000542402267, 216.00000232458115, 1);
+	width:61.91px;
+	height:97.59188842773438px;
+    text-align: center;	
+    margin-left: 50px;
+}
+
+.bloqueActividad{
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(253.0000001192093, 249.00000035762787, 221.00000202655792, 1);
+	width:188.22px;
+	height:97.59188842773438px;
+	line-height: 0px ;
+    text-align: center;
+    margin-left: 10px;
+
+}
